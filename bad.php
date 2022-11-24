@@ -21,7 +21,9 @@
 
 namespace App\Models;
 
-class Tenant{
+use Illuminate\Database\Eloquent\Model;
+
+class Tenant extends Model{
     public $accountingService;
 
     function __construct(){
